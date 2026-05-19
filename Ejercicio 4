@@ -1,0 +1,15 @@
+using System;
+
+public class Ejercicio3
+{
+    public static void Main(string[] args)
+    {
+       int suma = 100 + 50 ;
+       int suma2= suma+250 ;
+       int suma3 = suma + suma2 ;
+       
+       Console.WriteLine(suma);
+       Console.WriteLine(suma2);
+       Console.WriteLine(suma3);
+}
+}
