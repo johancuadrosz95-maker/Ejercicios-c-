@@ -1,0 +1,15 @@
+{
+    class Program {
+        static void Main(string[] args)
+        {
+            double Horas ;
+            const double Valor = 6000 ;
+    Console.WriteLine("Cuantas Horas de desarollo realizo");
+    double.TryParse(Console.Readline().out Horas);
+    
+  
+    Total = Valor * Horas ;
+    Console.WriteLine("Total sprint" + Total );
+    }
+    }
+}
