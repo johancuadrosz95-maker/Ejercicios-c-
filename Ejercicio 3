@@ -1,0 +1,16 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class Ejercicio3
+{
+    public static void Main(string[] args)
+    {
+        //int x = 100+50 ;
+        //Console.WriteLine(x);
+        
+        double y = 3.5 + 4.75;
+        Console.WriteLine(y);
+    }
+}
