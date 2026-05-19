@@ -1,0 +1,17 @@
+using System;
+
+public class Ejercicio1
+{
+    public static void Main(string[] args)
+    {
+        //1.Definicion del dato inicial(menor tamaño)
+     int myInt=9;
+     
+     //2.Funcion implicada (automatica)
+     double MyDouble=myInt;
+     
+     //3.Verificacion de Consola
+     Console.WriteLine(myInt);
+     Console.WriteLine(MyDouble);
+    }
+}
