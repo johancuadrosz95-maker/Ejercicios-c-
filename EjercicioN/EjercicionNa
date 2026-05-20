@@ -1,0 +1,44 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        
+        string producto;
+        int Cantidad;
+        int Stock= 100;
+        double Precio;
+    bool producto_disponible;
+        int Moto=70;
+        int Carro=10;
+        int Cicla=10;
+        int Patineta=10;
+        
+        Console.WriteLine("Ingrese el nombre del producto");
+        producto=Console.ReadLine();
+        
+    
+    
+
+    
+        producto_disponible=(producto== "Carro" || producto== "Moto");
+         producto_disponible=(producto== "Cicla" || producto=="Patineta");
+        
+         Console.WriteLine("Ingrese la cantidad ");
+         Cantidad=int.Parse(Console.ReadLine());
+         Console.WriteLine("ingrese precio unitario");
+         Precio=double.Parse(Console.ReadLine());
+         
+         double Sub_Total= Cantidad * Precio;
+         Stock=Stock- Cantidad;
+         Console.WriteLine("Producto Disponible " + producto_disponible );
+         Console.WriteLine("Sub Total   "+Sub_Total+" Pesos Colombiano");
+         Console.WriteLine("En STOCK    "+Stock);
+         
+         
+    }
+}
