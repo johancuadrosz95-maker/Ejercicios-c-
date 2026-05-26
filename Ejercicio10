@@ -1,0 +1,39 @@
+// Online C# Editor for free
+
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class Car
+{
+    string Color,Model;
+    int Year;
+    
+    public static void Main(string[] args)
+    {
+
+Car myObjet1=new Car();
+Car myObjet2=new Car();
+
+Car Ford= new Car();
+myObjet1.Color="Red";
+myObjet1.Model="Mustang";
+myObjet1.Year=1969;
+Console.WriteLine($"Modelo {myObjet1.Model}");
+Console.WriteLine($"Color {myObjet1.Color}");
+Console.WriteLine($"Modelo {myObjet1.Year}");
+
+
+
+Car Opel= new Car();
+myObjet2.Color="White";
+myObjet2.Model="Astra";
+myObjet2.Year=2005;
+
+Console.WriteLine($"Modelo {myObjet2.Model}");
+Console.WriteLine($"Color {myObjet2.Color}");
+Console.WriteLine($"Modelo {myObjet2.Year}");
+
+
+    }
+}
