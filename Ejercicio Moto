@@ -1,0 +1,52 @@
+using System;
+
+class Motos
+{
+ public string Color;
+public int Cilindraje,Velocidad;
+
+public void fullthrottle()
+    {
+        
+
+System.Console.WriteLine("Las tres Motos Manejan una Cilindraje Diferente");
+    }
+static void Main(string[] args)
+    {
+        
+Motos Honda= new Motos();
+Honda.Color="Azul";
+Honda.Cilindraje=250;
+Honda.Velocidad=180;
+
+
+Motos Pulsar=new Motos();
+Pulsar.Color="Azul Azalea";
+Pulsar.Cilindraje=200;
+Pulsar.Velocidad=130;
+
+
+Motos Kawasaki=new Motos();
+Kawasaki.Color="Verde";
+Kawasaki.Cilindraje=650;
+Kawasaki.Velocidad=230;
+
+Honda.fullthrottle();
+
+
+
+System.Console.WriteLine($"Moto Honda : Color:{Honda.Color} Cilindraje:{Honda.Cilindraje}  Velocidad Max :{Honda.Velocidad}");
+System.Console.WriteLine($"Moto Pulsar : Color:{Pulsar.Color},Cilindraje:{Pulsar.Cilindraje}, Velocidad max:{Pulsar.Velocidad}");
+System.Console.WriteLine($"Moto Kawasaki: Color:{Kawasaki.Color},Cilindraje:{Kawasaki.Cilindraje}, Velocidad max:{Kawasaki.Velocidad}" );
+
+
+
+    }
+
+
+
+    
+
+}
+
+
